@@ -1,0 +1,39 @@
+body {
+background: aquamarine;
+
+}
+
+aside{
+    float: left;
+    background: darkseagreen;
+    width:20%;
+    padding:2.5%;
+    height: 100vh;
+    color: black;
+    border-right: 5px solid lightskyblue;
+}
+aside image{
+    width: 50px;
+    float: left;
+}
+aside.logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+aside h3{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+aside ul{
+    list-style: none;
+}
+aside ul li {
+    color: black;
+    display: block;
+    margin-top: 20px;
+
+}
