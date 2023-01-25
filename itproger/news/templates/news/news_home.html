@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+
+
+{% block title %}News on new site{% endblock %}
+
+{% block content  %}
+    <div class="features">
+        <h1>{{title}}</h1>{% filter upper %}
+        <p>there is written some news about something and somewhere and by somebody for to nothing</p>{% endfilter %}
+        <button class="btn btn-warning">to about us</button>
+
+    </div>
+{% endblock %}

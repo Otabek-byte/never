@@ -1,9 +1,21 @@
 {% extends 'main/layout.html' %}
 
 
-{% block title %} General site {% endblock %}
+{% block title %}{{title}}{% endblock %}
 
 {% block content  %}
-    <h1>General site</h1>
-    <p>General site</p>
+    <div class="features">
+        <h1>{{title}}</h1>{% filter upper %}
+        <p>there is written something's about something and somewhere and by somebody for to nothing</p>{% endfilter %}
+        <button class="btn btn-warning">to about us</button>
+    {% for el in values %}
+        {% if el == 'some' %}
+            <p>{{ el }}</p>
+        {% endif %}
+    {%endfor%}
+
+    {% for el in obj %}
+        <p>{{ el|upper }}</p>
+    {%endfor%}
+    </div>
 {% endblock %}

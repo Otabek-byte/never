@@ -13,22 +13,21 @@
 </head>
 <body>
     <aside>
-
-
-
-    <main>
         <img src="{% static 'main/img/cat.png' %}" alt="logo">
         <span class="logo">it proger</span>
         <h3>Navigation</h3>
         <ul>
-            <a href=""><li><i class="bi bi-house-door-fill"></i>General site</li></a>
-            <a href=""><li><i class="bi bi-building-fill-check"></i>About us</li>
-            <a href=""><li><i class="bi bi-person-lines-fill"></i>Contacts</li>
+            <a href=" {% url 'home' %} "><li><i class="bi bi-house-door-fill"></i> General site</li></a>
+            <a href="{% url 'about' %}"><li><i class="bi bi-building-fill-check"></i> About us</li></a>
+            <a href="{% url 'news_home' %}"><li><i class="bi bi-newspaper"></i> Site news</li></a>
+            <a href=""><li><i class="bi bi-person-lines-fill"></i> Contacts</li></a>
         </ul>
-    </main>
-    {% include 'main/test.html'%}
-    {% block content %}
-    {% endblock %}
         </aside>
+    <main>
+
+        {% block content %}
+        {% endblock %}
+    </main>
+
 </body>
 </html> 
