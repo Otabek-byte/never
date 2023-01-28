@@ -5,9 +5,17 @@
 
 {% block content  %}
     <div class="features">
-        <h1>{{title}}</h1>{% filter upper %}
-        <p>there is written some news about something and somewhere and by somebody for to nothing</p>{% endfilter %}
-        <button class="btn btn-warning">to about us</button>
+        <h1>News</h1>
+        {% if news %}
+            {% for el in news %}
+                <div class="alert alert-warning">
+                <h3>{{ el.titele }}</h3>
+                <p>{{ el.anons }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>You don't have news!</p>
+        {% endif %}
 
     </div>
 {% endblock %}

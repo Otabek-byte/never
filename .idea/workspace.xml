@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfef0af3-e2eb-4d43-8d87-bc5e7e1ba47f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/itproger/news/templates/news/news_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itproger/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/itproger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/itproger/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/itproger/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/itproger/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itproger/news/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itproger/news/templates/news/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itproger/main/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/main/static/main/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/main/templates/main/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/main/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itproger/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/main/templates/main/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itproger/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itproger/news/templates/news/news_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/templates/news/news_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itproger/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itproger/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,11 @@
       <workItem from="1674381507100" duration="359000" />
       <workItem from="1674382503030" duration="320000" />
       <workItem from="1674384044908" duration="850000" />
-      <workItem from="1674385415190" duration="18855000" />
+      <workItem from="1674385415190" duration="24648000" />
+      <workItem from="1674669868409" duration="58000" />
+      <workItem from="1674732386277" duration="3449000" />
+      <workItem from="1674886033652" duration="7611000" />
+      <workItem from="1674909195959" duration="636000" />
     </task>
     <servers />
   </component>
