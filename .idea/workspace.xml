@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfef0af3-e2eb-4d43-8d87-bc5e7e1ba47f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/itproger/news/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itproger/news/templates/news/create.html" afterDir="false" />
+    <list default="true" id="bfef0af3-e2eb-4d43-8d87-bc5e7e1ba47f" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/itproger/news/templates/news/details_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itproger/news/templates/news/news-delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/main/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/main/static/main/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itproger/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itproger/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itproger/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itproger/news/templates/news/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/templates/news/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itproger/news/templates/news/news_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/templates/news/news_home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itproger/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itproger/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itproger/news/views.py" afterDir="false" />
@@ -31,6 +31,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="736e0820-f008-4d5d-a5be-8a35cf1f1ad0" />
+        <option name="url" value="https://github.com/otabek-byte/never" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -165,8 +178,23 @@
       <workItem from="1674669868409" duration="58000" />
       <workItem from="1674732386277" duration="3449000" />
       <workItem from="1674886033652" duration="7611000" />
-      <workItem from="1674909195959" duration="636000" />
+      <workItem from="1674909195959" duration="14800000" />
     </task>
+    <task id="LOCAL-00001" summary="changes">
+      <created>1674909852469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674909852469</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changes">
+      <created>1674909879218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674909879218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +222,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
